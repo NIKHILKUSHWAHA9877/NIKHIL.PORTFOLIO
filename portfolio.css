@@ -214,10 +214,38 @@ background-color: rgb(221, 219, 214);
 @media (max-width: 412px ) {
 
    .skill h4{
-font-size: 100px;
+font-size: 118px;
 margin-left: auto;
 margin-right: 100%;
     }
 
 }
+
+@media (max-width: 412px ) {
+
+    .main{
+display: block;
+    }
+
+}
+@media (max-width: 635px ) {
+
+    section .container {
+        margin: 0px;
+    }
+
+}
+@media (max-width: 394px ) {
+
+    .skill h4{
+ font-size: 99px;
+ margin-left: auto;
+ margin-right: 100%;
+     }
+ 
+ }
+
+
+
+
 
