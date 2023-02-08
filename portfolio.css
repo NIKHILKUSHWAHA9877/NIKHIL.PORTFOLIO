@@ -186,6 +186,47 @@ background-color: rgb(221, 219, 214);
     font-weight: bold;
 
  }
+
+@media (max-width:  1600px ) {
+
+  .main h5{
+    font-size:70px;
+    font-weight: bold;
+  margin: 20px;
+        }
+    
+}
+ 
+ @media (min-width:  1366px ) {
+
+  .sk .container{
+
+    margin-left: 150px;
+    
+     }
+
+}
+@media (max-width:  1366px ) {
+
+  .skill h4{
+    font-size: 192px;
+    margin-left: auto;
+    margin-right: 100%;
+        }
+    
+}
+
+@media (max-width:  1366px ) {
+
+  .type h5{
+    font-size: 40px;
+    font-weight: bolder;
+        }
+    
+}
+
+
+
  @media (max-width: 1017px){
     .sk h1{
         line-height: 95px;
@@ -211,15 +252,7 @@ background-color: rgb(221, 219, 214);
     }
 
 }
-@media (max-width: 412px ) {
 
-   .skill h4{
-font-size: 118px;
-margin-left: auto;
-margin-right: 100%;
-    }
-
-}
 
 /*@media (max-width: 412px ) {
 
@@ -235,43 +268,77 @@ display: block;
     }
 
 }
-@media (max-width: 394px ) {
-
-    .skill h4{
- font-size: 99px;
- margin-left: auto;
- margin-right: 100%;
-     }
- 
- }
 
 
 
- @media (min-width:  1366px ) {
 
-  .sk .container{
 
-    margin-left: 150px;
+@media (max-width: 595px){
+  .skill h4{
+    font-size: 160px;
+    margin-left: auto;
+    margin-right: 100%;
+        }
     
-     }
+}
+@media (max-width: 595px){
+  .main h5 {
+    font-size: 30px;
+    font-weight: bolder;
+}
 
 }
-/*@media (min-width:  1366px ) {
-
- .container h2{
-
-    margin-left: 150px;
-    
-     }
-
-}*/
 
 
- @media (max-width: 413px){
-    .type h1 {
-        font-size: 20px;
-        font-weight: bolder;
-    }
+@media (max-width: 531px){
+  .skill h4{
+    font-size: 140px;
+    margin-left: auto;
+    margin-right: 100%;
+        }
+      }
+
+@media (max-width: 413px){
+  .main h5 {
+      font-size: 20px;
+      font-weight: bolder;
+  }
+
+}
+@media (max-width: 412px ) {
+
+  .skill h4{
+font-size: 99px;
+margin-left: auto;
+margin-right: 100%;
+   }
+
+}
+
+@media (max-width: 413px){
+  .sk h1 {
+      font-size: 50px;
+      font-weight: bolder;
+  }
+
+}
+
+
+@media (max-width: 394px ) {
+
+  .skill h4{
+font-size: 99px;
+margin-left: auto;
+margin-right: 100%;
+   }
+
+}
+@media (max-width: 394px ) {
+
+.sk h1{
+font-size: 40px;
+font-weight: bolder;
+ }
 
 }
 
