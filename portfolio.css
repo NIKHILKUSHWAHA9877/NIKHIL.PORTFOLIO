@@ -20,6 +20,11 @@ text-decoration: none;
 margin-left: 75%;
 }
 
+ c{
+font-weight: bolder;
+margin-left: 20px;
+}
+
 a{
 font-size:larger;
 font-weight: bolder;
@@ -60,11 +65,13 @@ text-align: center;
 position: sticky;
 top: 0;
 flex-wrap: wrap;
+
 }
 
 section:nth-child(1){
   color: #fff;
   overflow: visible;
+
 }
 
 section:nth-child(2){
@@ -76,6 +83,8 @@ section:nth-child(2){
 section:nth-child(3){
   color: #fff;
 background:#1D212B ;
+margin-left: auto;
+
 }
 
 section:nth-child(4){
@@ -86,7 +95,7 @@ section:nth-child(4){
 
 section .container{
   margin: 90px;
-  
+ 
 }
 
 .sk h1{
@@ -96,29 +105,18 @@ section .container{
   line-height: 2em;
 }
 
-.sk h2{
-  font-size: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bolder;
-}
 
-section .cards{
-  display: flex;
- align-items: center;
-}
+
 
 section .cards .text-card{
   background: #2696E9;
   margin: 20px;
   padding: 30px;
   width: 50%;
-  
 }
 
 section .cards .text-card h3{
   font-size: 30px;
-  text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -127,6 +125,8 @@ section .cards .text-card h3{
   section .cards{
     flex-direction: column;
     overflow: hidden;
+    display: flex;
+align-items: center;
   }
 
 .reveal{
@@ -221,13 +221,13 @@ margin-right: 100%;
 
 }
 
-@media (max-width: 412px ) {
+/*@media (max-width: 412px ) {
 
     .main{
 display: block;
-    }
+    } 
 
-}
+}*/
 @media (max-width: 635px ) {
 
     section .container {
@@ -244,6 +244,43 @@ display: block;
      }
  
  }
+
+
+
+ @media (min-width:  1366px ) {
+
+  .sk .container{
+
+    margin-left: 150px;
+    
+     }
+
+}
+/*@media (min-width:  1366px ) {
+
+ .container h2{
+
+    margin-left: 150px;
+    
+     }
+
+}*/
+
+
+ @media (max-width: 413px){
+    .type h1 {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+}
+@media (max-width: 412px ) {
+
+  .sk h1 { 
+font-size: 52px;
+      
+  }
+}
 
 
 
