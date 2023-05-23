@@ -597,8 +597,9 @@ ul {
 
 @media screen and (max-width: 1000px) {
         .container {
-            max-width: 960px;
-    
+
+           width: 960px;
+
         }
 
         .is-size-3-desktop {
@@ -611,11 +612,11 @@ ul {
     }
 
     .section {
-        padding: 3rem 3rem;
+        padding: 0.5rem 0.5rem;
     }
 
     .section {
-        padding: 3rem 1.5rem;
+        padding: 0.5rem 1.5rem;
     }
 
     .has-text-centered {
@@ -693,8 +694,9 @@ ul {
      .list-title{
         font-size: 30px !important;
       }
-   
-   
+      .main-footer{
+      bottom: 0
+}
 }
 
 
