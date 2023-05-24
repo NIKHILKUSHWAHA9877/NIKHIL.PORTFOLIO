@@ -561,7 +561,7 @@ ul {
 @media screen and (min-width: 1024px) {
     .columns:not(.is-desktop) {
         display: flex;
-         background-color: #5BE9B9;
+        background-color: #5BE9B9;
     }
 }
 
@@ -1294,3 +1294,4 @@ padding: 30px !important;
      font-size:  33px;
    }
 } 
+
