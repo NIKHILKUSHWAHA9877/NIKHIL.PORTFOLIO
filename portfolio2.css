@@ -561,6 +561,7 @@ ul {
 @media screen and (min-width: 1024px) {
     .columns:not(.is-desktop) {
         display: flex;
+         background-color: #5BE9B9;
     }
 }
 
