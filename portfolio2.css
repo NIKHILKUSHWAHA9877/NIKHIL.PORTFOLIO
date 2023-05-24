@@ -544,14 +544,15 @@ ul {
 
 @media screen and (min-width: 1024px) {
     .container {
-        max-width: 960px;
+        max-width: 1000px;
+        
 
     }
 }
 
 @media screen and (min-width: 1024px) {
     .is-size-3-desktop {
-        font-size: 2.5rem ;
+        font-size: 4.1rem ;
     }
 }
 
@@ -565,7 +566,8 @@ ul {
 
 @media screen and (min-width: 1024px) {
     .is-size-5-desktop {
-        font-size: 2.25rem !important;
+        font-size: 1.8rem !important;
+        margin-top: 40px;
     }
 }
 
@@ -591,6 +593,12 @@ ul {
     section {
         display: block;
     }
+
+
+    .navbar-brand{
+        font-size: 35px;
+       padding: 28px;
+      }
 }
 
 
@@ -633,7 +641,8 @@ ul {
         display: block;
     }
     .is-size-5-desktop {
-        font-size: 2.25rem !important;
+        font-size: 1.8rem !important;
+        margin-top: 50px;
     }
 
     body{
@@ -694,9 +703,7 @@ ul {
      .list-title{
         font-size: 30px !important;
       }
-      .main-footer{
-      bottom: 0
-}
+  
 }
 
 
@@ -822,42 +829,9 @@ trial end */
         justify-content: center;
     }
 }
-/* 
-@media screen and (min-width: 1024px) {
-    .columns:not(.is-desktop) {
-        display: flex;
-    }
-}
 
-@media screen and (min-width: 1024px) {
-    .is-size-5-desktop {
-        font-size: 1.25rem !important;
-    }
-}
 
-@media screen and (min-width: 1024px) {
-    .section {
-        padding: 3rem 3rem;
-    }
 
-    .section {
-        padding: 3rem 1.5rem;
-    }
-
-    .has-text-centered {
-        text-align: center !important;
-    }
-
-    article,
-    aside,
-    figure,
-    footer,
-    header,
-    hgroup,
-    section {
-        display: block;
-    }
-} */
 
 
 @media screen and (min-width: 769px) {
@@ -1333,18 +1307,9 @@ ul {
 
 
 
-/* @media screen and (min-width: 1024px) {
-    .container {
-        max-width: 960px;
 
-    }
-}
 
-@media screen and (min-width: 1024px) {
-    .is-size-3-desktop {
-        font-size: 2.5rem ;
-    }
-} */
+
 
  @media screen and (max-width: 990px) {
     .is-size-4-mobile{
@@ -1392,55 +1357,6 @@ font-weight: 800;
     }
 }
 
-/* @media screen and (min-width: 1024px) {
-    .container {
-        max-width: 960px;
-
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .is-size-3-desktop {
-        font-size: 2.5rem ;
-    }
-}
-
-
-@media screen and (min-width: 1024px) {
-    .columns:not(.is-desktop) {
-        display: flex;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .is-size-5-desktop {
-        font-size: 1.25rem !important;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .section {
-        padding: 3rem 3rem;
-    }
-
-    .section {
-        padding: 3rem 1.5rem;
-    }
-
-    .has-text-centered {
-        text-align: center !important;
-    }
-
-    article,
-    aside,
-    figure,
-    footer,
-    header,
-    hgroup,
-    section {
-        display: block;
-    }
-} */
 
 
 @media screen and (min-width: 769px) {
