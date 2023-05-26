@@ -615,7 +615,11 @@ ul {
 
         }
 
-
+        .sec.skills .box .content .columns .column {
+            padding: 50px 30px;
+            border-bottom: 2px solid #E6ECF8;
+            border-right: 0px solid #E6ECF8;
+        }
 .columns:not(.is-desktop) {
         display: flex;
        
@@ -687,24 +691,59 @@ ul {
     margin-top: 140px;
    width: 900px !important;
   }
-
   .sk_h1{
     font-size:  45px;
   }
-
-  /* .sk_h2{
-    font-size: 40px ;    #now avliable to work
+  section.sk{
+    height: 135vh; 
+    width: 100%; 
+ text-align: center;
+ position: sticky;
+  top: 0;
+ 
+ } 
+ .sk_h2{
+    font-size: 34px ; 
+    margin-top: 18px; 
      }
-      */
 
 
      .list-title{
         font-size: 30px !important;
       }
+      .main-footer__row > p{
+
+        font-size: 15px ;
+    }
+    .text-lt{
+
+    font-size: 12px;
+    }
+    .heading-sm > span{
+
+        font-size: 15px;
+
+    }
+    .Download_btn{
+
+        font-size: 30px !important;
+    } 
+    .main-footer__lower {
+        padding: 3.5rem 0;
+    }
+    
+    .main-footer__lower {
+        padding: 1.5rem 0 !important;
+        border-top: 1px solid #444;
+        color: #eee;
+        font-size: 2rem !important;
+        text-align: left;
+        text-align: center;
+    } 
 }
 
 @media screen and (min-width: 770px) and (max-width: 980px) {
-
+/* bilkul perfect shayed no */
     .container {
 
         width: 960px;
@@ -747,7 +786,7 @@ ul {
 
      font-size: 30px;
  }
-
+ 
 
  .fa-stack{
      font-size: 40px;
@@ -766,7 +805,7 @@ ul {
 
 
  .navbar-brand{
-     font-size: 25px;
+     font-size: 30px;
     padding: 28px;
  
 }
@@ -784,14 +823,24 @@ ul {
 width: 900px !important;
 }
 
+section.sk{
+    height: 56vh; 
+    width: 100%; 
+ text-align: center;
+ position: sticky;
+  top: 0;
+ 
+ } 
+
+
 .sk_h1{
- font-size:  45px;
+ font-size:  50px;
 }
 
-/* .sk_h2{
- font-size: 40px ;    #now avliable to work
-  }
-   */
+.sk_h2{
+    font-size: 35px ; 
+    margin-top: 17px; 
+     }
 
 
   .list-title{
@@ -803,20 +852,52 @@ width: 900px !important;
 font-size: 35px;
 
    }
-   section.sk{
-    height: 60vh; 
-    width: 100%; 
- text-align: center;
- position: sticky;
-  top: 0;
- 
- } 
-
+   
  section.is-medium{
     height: 70vh; 
 
  }
 
+
+ .sec.skills .box .content .columns .column {
+    padding: 50px 30px;
+    border-bottom: 2px solid #E6ECF8;
+    border-right: 0px solid #E6ECF8;
+}
+
+.main-footer__row > p{
+
+    font-size: 15px !important;
+}
+.text-lt{
+
+    font-size: 12px !important;
+    }
+    .heading-sm > span{
+
+        font-size: 15px !important;
+
+    }
+    .Download_btn{
+
+        font-size: 30px !important;
+    } 
+    .main-footer__lower {
+        padding: 3.5rem 0;
+    }
+    
+    .main-footer__lower {
+        padding: 1.5rem 0;
+        border-top: 1px solid #444;
+        color: #eee;
+        font-size: 1.2rem !important;
+        text-align: left;
+        text-align: center;
+    } 
+    .in{
+        justify-content:space-between;
+        }
+      
 }
 
 
