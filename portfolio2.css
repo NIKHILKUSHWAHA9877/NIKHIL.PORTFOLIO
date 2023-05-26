@@ -615,11 +615,7 @@ ul {
 
         }
 
-        .sec.skills .box .content .columns .column {
-            padding: 50px 30px;
-            border-bottom: 2px solid #E6ECF8;
-            border-right: 0px solid #E6ECF8;
-        }
+        
 .columns:not(.is-desktop) {
         display: flex;
        
