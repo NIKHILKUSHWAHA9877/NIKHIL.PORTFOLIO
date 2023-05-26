@@ -738,8 +738,8 @@ ul {
     } 
 	.sec.skills .box .content .columns .column {
         padding: 50px 30px;
-        border-bottom: 1px solid #E6ECF8;
-        border-right: 2px solid #E6ECF8;
+        border-bottom: 1px solid #E6ECF8 !important;
+        border-right: 2px solid #E6ECF8 !important;
     }
 }
 
